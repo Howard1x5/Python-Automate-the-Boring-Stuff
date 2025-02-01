@@ -1,0 +1,18 @@
+# Chapter 3: Functions - Summary
+
+- Functions let me **reuse code instead of repeating myself** like a caveman.
+- I define a function using `def function_name():` and then **call it whenever I need it**.
+- Functions can take **arguments** (input values) like `def my_function(x):` to make them more useful.
+- A function **returns values** using `return` so I can actually use the output.
+- If a function doesn’t return anything, it defaults to `None` (which is basically Python saying "I got nothing").
+- **Local vs. Global Variables:**
+  - **Local variables** exist inside a function and vanish once it’s done running.
+  - **Global variables** stick around but can be a mess if overused.
+  - If I really need to mess with a global variable inside a function, I can use `global`, but that’s usually bad practice.
+- **Exception Handling:**  
+  - If my program is about to **explode** (aka crash), I can use `try:` and `except:` to handle errors.
+  - Example: Wrapping `int(input())` in `try-except` prevents **ValueError** crashes when a user enters text instead of a number.
+- **Collatz Sequence Exercise:**  
+  - This was a great way to practice **functions, loops, and user input**.
+  - The math people still don’t know why it works, but it does, and it helped reinforce function calls and return values.
+
