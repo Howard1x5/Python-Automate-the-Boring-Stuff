@@ -57,3 +57,5 @@ for column in range(len(grid[0])): # loop columns left to right
     for row in range(len(grid)):   # loop rows top to bottom
         print(grid[row][column], end='') # print character w/o new line
     print()                          # new line
+
+    
