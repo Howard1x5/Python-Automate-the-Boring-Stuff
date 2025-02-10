@@ -1,0 +1,18 @@
+# Chapter 5: Dictionaries and Structuring Data - Summary
+
+- **Dictionaries store key-value pairs**, unlike lists which store ordered values.
+- Dictionaries use **curly braces `{}`**, and each key is **mapped to a value**.
+- **Access values by key, not index** → Example: `myDict['gold coin']` gets the value for `"gold coin"`.
+- **Dictionaries are unordered**, so their items don't have a fixed position like lists.
+- **Adding new key-value pairs is simple** → `myDict['newKey'] = value`.
+- **Modifying existing values** works the same way → `myDict['gold coin'] += 1`.
+- **Deleting items** can be done with `del myDict['key']`.
+- **Use `.keys()`, `.values()`, and `.items()`** to loop through dictionaries.
+- **The `get()` method** is useful for retrieving values safely without throwing an error if a key doesn’t exist.
+- **Nested dictionaries** allow storing structured data inside dictionaries.
+- **Fantasy Game Inventory Exercise** reinforced:
+  - How to loop through and display dictionary items.
+  - How to count total items dynamically.
+  - How to **merge a list into an existing dictionary** to simulate adding loot.
+- **This chapter helped me better understand** how data can be stored dynamically and modified efficiently with key-value pairs.
+
