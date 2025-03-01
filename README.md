@@ -7,7 +7,7 @@ Each chapter will have its own coding exercises, committed as proof of progress.
 - ✅ Chapter 3: Functions
 - ✅ Chapter 4: Lists
 - ✅ Chapter 5: Dictionaries & Structuring Data
-- 🔲 Chapter 6: Manipulating Strings
+- ✅ Chapter 6: Manipulating Strings
 - 🔲 Chapter 7: Pattern Matching with Regular Expressions
 - 🔲 Chapter 8: Input Validation
 - 🔲 Chapter 9: Reading and Writing Files
