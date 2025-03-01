@@ -46,6 +46,6 @@ for match in matches:
     day, month, year = map(int, match)  # Convert string groups to integers
     
     if is_valid_date(day, month, year):
-        print(f"✅ Valid date: {day:02d}/{month:02d}/{year}")
+        print(f" Valid date: {day:02d}/{month:02d}/{year}")
     else:
-        print(f"❌ Invalid date: {day:02d}/{month:02d}/{year}")
+        print(f" Invalid date: {day:02d}/{month:02d}/{year}")
