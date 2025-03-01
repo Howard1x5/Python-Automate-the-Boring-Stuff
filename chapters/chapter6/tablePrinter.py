@@ -33,19 +33,6 @@ Hint: your code will first have to find the longest string in each of the inner 
 ### Iterate to the next sublist in tableData
 ###     tableData[i] = i + 1
 
-'''1️⃣ Loop through the number of words in the longest column
-
-    How can we determine how many rows exist?
-    2️⃣ Extract the nth element from each column (tableData[i])
-    How do we get the right words from each sublist?
-    3️⃣ Use .rjust(colWidths[i]) to format each word
-    How do we ensure words align neatly?
-
-❓ Questions for You Before Coding
-
-    What should be the range of our outer for loop?
-    How do we access the correct word from each column to form a row?
-    How do we ensure that words from different columns print on the same line?'''
 
 def printTable(tableData):
     colWidths = [0] * len(tableData)  # Step 1: Store max width of each column
