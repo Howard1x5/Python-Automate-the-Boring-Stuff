@@ -30,17 +30,17 @@ for questionNumber in range(1, numberOfQuestions + 1):
         )
 
     except pyip.TimeoutException:
-        print("⏳ Out of time!")  # User failed to answer in time
+        print("Out of time!")  # User failed to answer in time
     except pyip.RetryLimitException:
-        print("❌ Out of tries!")  # User failed after 3 attempts
+        print("Out of tries!")  # User failed after 3 attempts
 
     else:
         # If no exception was raised, user answered correctly
-        print("✅ Correct!")
+        print(" Correct!")
         correctAnswers += 1  # Increase score
 
     # Small delay to let user see the result before next question
     time.sleep(1)
 
 # Final score display
-print(f"\n📊 Score: {correctAnswers} / {numberOfQuestions}")
+print(f"\n Score: {correctAnswers} / {numberOfQuestions}")
