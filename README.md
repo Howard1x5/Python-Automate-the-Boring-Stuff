@@ -11,7 +11,7 @@ Each chapter will have its own coding exercises, committed as proof of progress.
 - ✅ Chapter 7: Pattern Matching with Regular Expressions
 - ✅ Chapter 8: Input Validation
 - ✅ Chapter 9: Reading and Writing Files
-- 🔲 Chapter 10: Organizing Files
+- ✅ Chapter 10: Organizing Files
 - 🔲 Chapter 11: Debugging
 - 🔲 Chapter 12: Web Scraping
 
